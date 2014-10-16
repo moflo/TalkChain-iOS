@@ -26,10 +26,11 @@
     Launch the TalkChain UI
  
     @param key - App key provided at signup.
+    @param token - Apple push notification token.
     @param delegate - Delegate to receive callbacks.
 */
 
-+ (id)launchWithAPIKey:(NSString*)key delegate:(id<TalkChainDelegate>)delegate;
++ (id)launchWithAPIKey:(NSString*)key token:(NSString*)token delegate:(id<TalkChainDelegate>)delegate;
 
 /**
     The recommended UX is to let the user manually close TalkChain via the built-in close button,

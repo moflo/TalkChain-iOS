@@ -15,6 +15,14 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.3 Change Log:
+----------------------------------
+* Added Apple Push Notification Token to launchWithAPIKey:token:delegate:
+
+1.0.2 Change Log:
+----------------------------------
+* Added x86_64 support
+
 1.0.1 Change Log:
 ----------------------------------
 * Updated bundle assets
