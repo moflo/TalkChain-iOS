@@ -15,6 +15,10 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.5 Change Log:
+----------------------------------
+* Added Facebook Audience Network
+
 1.0.4 Change Log:
 ----------------------------------
 * Fixed bugs
