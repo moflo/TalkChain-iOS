@@ -10,6 +10,7 @@ Contains:
 ----------------------------------
 * TalkChain.framework (iOS)
 * TalkChain.bundle
+* Third Party Libraries
 
 Getting Started with TalkChain:
 ----------------------------------
