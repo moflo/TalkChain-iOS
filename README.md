@@ -16,6 +16,11 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.8 Change Log:
+----------------------------------
+* Additional ad providers
+* Bug fixes
+
 1.0.7 Change Log:
 ----------------------------------
 * Added Guest mode
