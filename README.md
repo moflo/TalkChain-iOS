@@ -16,6 +16,12 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.10 Change Log:
+----------------------------------
+* Added ability to customize UI color palette
+* Upgraded to InMobi v4.5.1
+* Bug fixes
+
 1.0.9 Change Log:
 ----------------------------------
 * Upgraded to Facebook Audience Network v3.20

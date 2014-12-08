@@ -22,7 +22,7 @@
 
 @property (nonatomic, strong) id<TalkChainDelegate> delegate;
 
-/** 
+/*
     Launch the TalkChain UI
  
     @param key - App key provided at signup.
@@ -32,7 +32,9 @@
 
 + (id)launchWithAPIKey:(NSString*)key token:(NSString*)token delegate:(id<TalkChainDelegate>)delegate;
 
-/**
+/*
+    Stop TalkChain
+ 
     The recommended UX is to let the user manually close TalkChain via the built-in close button,
     which ends the session, closes the UI and triggers talkChainSessionEnded. TalkChain will maintain 
     a live connection to listen for and relay notifications, such as Direct Messages to the delegate.
@@ -43,5 +45,23 @@
 */
 
 + (void)stop;
+
+/*
+    Customize App Colors
+ 
+    @param primary - Launch screen background, navigation header, and refresh AI color (should closely match your custom header image.)
+    @param secondary - Header text color.
+    @param highlight - UITableViewCell selected color.
+    @param accent - Assorted accents, Karma score background and UISwitch tint color.
+    @param border - UITextField and UITextView border color.
+ 
+ */
+
++ (void)configureColorsWithPrimary:(UIColor*)primary
+              secondary:(UIColor*)secondary
+              highlight:(UIColor*)highlight
+                 accent:(UIColor*)accent
+                 border:(UIColor*)border;
+
 
 @end
