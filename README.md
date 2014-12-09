@@ -16,6 +16,11 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.11 Change Log:
+----------------------------------
+* Added Community name to support email
+* Bug fixes
+
 1.0.10 Change Log:
 ----------------------------------
 * Added ability to customize UI color palette
