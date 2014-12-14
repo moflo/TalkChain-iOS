@@ -18,7 +18,7 @@ New and returning users should review the [quick start guide](https://github.com
 
 1.0.13 Change Log:
 ----------------------------------
-* Added [Credentials](https://github.com/afty/TalkChain-iOS/wiki/Credentials).
+* Added [Credentials](https://github.com/afty/TalkChain-iOS/wiki/Credentials)
 * Bug fixes
 
 1.0.12 Change Log:
