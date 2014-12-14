@@ -7,14 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "TalkChainCredentials.h"
 
 @protocol TalkChainDelegate <NSObject>
 
 @optional
 
-- (void)talkChainSessionEnded;
+- (void)talkChainSessionEnded:(NSString*)error;
 - (void)talkChainReceivedNotification:(NSDictionary*)notification view:(UIView*)view;
+- (void)talkChainCredentialsUpdated:(TalkChainCredentials*)credentials;
 
 @end
 
@@ -25,12 +26,16 @@
 /*
     Launch the TalkChain UI
  
-    @param key - App key provided at signup.
+    @param key - App key provided by Affinity Networks.
     @param token - Apple push notification token.
+    @param credentials - Optional credentials to use when creating a new TalkChain user account.
     @param delegate - Delegate to receive callbacks.
-*/
+ */
 
-+ (id)launchWithAPIKey:(NSString*)key token:(NSString*)token delegate:(id<TalkChainDelegate>)delegate;
++ (id)launchWithAPIKey:(NSString*)key
+                 token:(NSString*)token
+           credentials:(TalkChainCredentials*)credentials
+              delegate:(id<TalkChainDelegate>)delegate;
 
 /*
     Stop TalkChain
@@ -42,7 +47,7 @@
     Stop will manually close the TalkChain UI (if presented) and stop all listeners.
  
     We recommend calling this only on application:didReceiveMemoryWarning.
-*/
+ */
 
 + (void)stop;
 
@@ -62,6 +67,5 @@
               highlight:(UIColor*)highlight
                  accent:(UIColor*)accent
                  border:(UIColor*)border;
-
 
 @end
