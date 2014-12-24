@@ -16,6 +16,12 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.0.15 Change Log:
+----------------------------------
+* Remove reference to [UINavigationBar appearance]
+* Primary color used for modal navigation headers
+* Default color used for system control headers (Email, SMS) 
+
 1.0.14 Change Log:
 ----------------------------------
 * Upgraded to AFTY 3.1.7

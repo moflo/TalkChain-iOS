@@ -55,7 +55,7 @@
     Customize App Colors
  
     @param primary - Launch screen background, navigation header, and refresh AI color (should closely match your custom header image.)
-    @param secondary - Header text color.
+    @param secondary - Used throughout as a bold text color.
     @param highlight - UITableViewCell selected color.
     @param accent - Assorted accents, Karma score background and UISwitch tint color.
     @param border - UITextField and UITextView border color.
