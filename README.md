@@ -16,6 +16,13 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.0 Change Log:
+----------------------------------
+* Changed init sequence
+* Enabled delegate push notifications
+* Added TapIt Ad Network
+* Refactored base code to avoid collisions
+
 1.0.15 Change Log:
 ----------------------------------
 * Remove reference to [UINavigationBar appearance]

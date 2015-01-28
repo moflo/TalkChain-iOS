@@ -13,8 +13,11 @@
 
 @optional
 
-- (void)talkChainSessionEnded:(NSString*)error;
-- (void)talkChainReceivedNotification:(NSDictionary*)notification view:(UIView*)view;
+- (void)talkChainIsReady;
+- (void)talkChainSessionStarted;
+- (void)talkChainError:(NSString*)error;
+- (void)talkChainViewStateChanged:(BOOL)visible;
+- (void)talkChainReceivedNotification:(NSInteger)badge;
 - (void)talkChainCredentialsUpdated:(TalkChainCredentials*)credentials;
 
 @end
@@ -23,49 +26,55 @@
 
 @property (nonatomic, strong) id<TalkChainDelegate> delegate;
 
-/*
-    Launch the TalkChain UI
- 
-    @param key - App key provided by Affinity Networks.
-    @param token - Apple push notification token.
-    @param credentials - Optional credentials to use when creating a new TalkChain user account.
-    @param delegate - Delegate to receive callbacks.
- */
+/*  Singleton */
 
-+ (id)launchWithAPIKey:(NSString*)key
++ (id)sharedManager;
+
+/*
+    Initialize TalkChain
+ 
+    @param key - API key provided by Affinity Networks
+    @param token - Optional APNS token - See Push Notifications in wiki
+    @param credentials - Optional credentials to use when creating a new User account
+    @param delegate - Optional delegate
+*/
+
++ (void)initWithAPIKey:(NSString*)key
                  token:(NSString*)token
            credentials:(TalkChainCredentials*)credentials
               delegate:(id<TalkChainDelegate>)delegate;
 
-/*
-    Stop TalkChain
- 
-    The recommended UX is to let the user manually close TalkChain via the built-in close button,
-    which ends the session, closes the UI and triggers talkChainSessionEnded. TalkChain will maintain 
-    a live connection to listen for and relay notifications, such as Direct Messages to the delegate.
- 
-    Stop will manually close the TalkChain UI (if presented) and stop all listeners.
- 
-    We recommend calling this only on application:didReceiveMemoryWarning.
- */
+/*  Start a TalkChain session, create a user account (for first-time users) and listen for notifications. */
 
-+ (void)stop;
+- (void)startSession;
+
+/*  Open the TalkChain UI */
+
+- (void)presentUI;
+
+/*
+    Stop TalkChain and close the UI
+ 
+    We recommend calling this only on memory warnings. Otherwise, allow the
+    user to close the UI using normal navigation.
+*/
+
+- (void)stop;
 
 /*
     Customize App Colors
- 
-    @param primary - Launch screen background, navigation header, and refresh AI color (should closely match your custom header image.)
-    @param secondary - Used throughout as a bold text color.
-    @param highlight - UITableViewCell selected color.
-    @param accent - Assorted accents, Karma score background and UISwitch tint color.
-    @param border - UITextField and UITextView border color.
- 
- */
+
+    @param primary - Launch screen background and assorted controls
+    @param secondary - Used throughout as a bold text color
+    @param highlight - UITableViewCell selected color
+    @param accent - Assorted accents, Karma score background and UISwitch tint color
+    @param header - Navigation header color
+*/
 
 + (void)configureColorsWithPrimary:(UIColor*)primary
               secondary:(UIColor*)secondary
               highlight:(UIColor*)highlight
                  accent:(UIColor*)accent
-                 border:(UIColor*)border;
+                 header:(UIColor*)header;
 
 @end
