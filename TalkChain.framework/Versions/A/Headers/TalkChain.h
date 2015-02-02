@@ -30,6 +30,7 @@
 
 + (id)sharedManager;
 
+
 /*
     Initialize TalkChain
  
@@ -44,13 +45,16 @@
            credentials:(TalkChainCredentials*)credentials
               delegate:(id<TalkChainDelegate>)delegate;
 
+
 /*  Start a TalkChain session, create a user account (for first-time users) and listen for notifications. */
 
 - (void)startSession;
 
+
 /*  Open the TalkChain UI */
 
 - (void)presentUI;
+
 
 /*
     Stop TalkChain and close the UI
@@ -60,6 +64,7 @@
 */
 
 - (void)stop;
+
 
 /*
     Customize App Colors
@@ -76,5 +81,10 @@
               highlight:(UIColor*)highlight
                  accent:(UIColor*)accent
                  header:(UIColor*)header;
+
+
+/*  Allow Guest Accounts - Default YES */
+
++ (void)allowGuestAccounts:(BOOL)allow;
 
 @end
