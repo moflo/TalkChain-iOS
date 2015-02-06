@@ -16,6 +16,10 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.2 Change Log:
+----------------------------------
+* Removed library collisions with TTTAttributedLabel, DACircularProgressView, SVProgressHUD and IDMPhoto*
+
 1.1.1 Change Log:
 ----------------------------------
 * Added Guest Account setting - see [Credentials](https://github.com/afty/TalkChain-iOS/wiki/Credentials)
