@@ -16,6 +16,11 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.3 Change Log:
+----------------------------------
+* Fixed an issue with sequence of init and color configuration
+* Fixed iOS8 iPad UIActivityViewController issue
+
 1.1.2 Change Log:
 ----------------------------------
 * Removed library collisions with TTTAttributedLabel, DACircularProgressView, SVProgressHUD and IDMPhoto*
