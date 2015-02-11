@@ -83,7 +83,7 @@
                  header:(UIColor*)header;
 
 
-/*  Allow Guest Accounts - Default YES */
+/*  Allow Guest Accounts - Default NO */
 
 + (void)allowGuestAccounts:(BOOL)allow;
 

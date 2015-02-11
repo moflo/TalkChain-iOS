@@ -16,6 +16,10 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.4 Change Log:
+----------------------------------
+* Guest Account turned off by default - see [Credentials](https://github.com/afty/TalkChain-iOS/wiki/Credentials)
+
 1.1.3 Change Log:
 ----------------------------------
 * Fixed an issue with sequence of init and color configuration
