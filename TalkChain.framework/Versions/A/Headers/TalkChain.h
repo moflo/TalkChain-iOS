@@ -25,6 +25,8 @@
 @interface TalkChain : NSObject
 
 @property (nonatomic, strong) id<TalkChainDelegate> delegate;
+@property (nonatomic, strong) NSString *APNSToken;
+@property (nonatomic, strong) TalkChainCredentials *credentials;
 
 /*  Singleton */
 
@@ -35,15 +37,10 @@
     Initialize TalkChain
  
     @param key - API key provided by Affinity Networks
-    @param token - Optional APNS token - See Push Notifications in wiki
-    @param credentials - Optional credentials to use when creating a new User account
     @param delegate - Optional delegate
 */
 
-+ (void)initWithAPIKey:(NSString*)key
-                 token:(NSString*)token
-           credentials:(TalkChainCredentials*)credentials
-              delegate:(id<TalkChainDelegate>)delegate;
++ (void)initWithAPIKey:(NSString*)key delegate:(id<TalkChainDelegate>)delegate;
 
 
 /*  Start a TalkChain session, create a user account (for first-time users) and listen for notifications. */
