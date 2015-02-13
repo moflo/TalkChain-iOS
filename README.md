@@ -1,7 +1,7 @@
 TalkChain iOS Library
 ==================================
-Modified: 2015/02/12
-Version: 1.1.5
+Modified: 2015/02/12  
+Library Version: 1.1.5 
 
 To Download:
 ----------------------------------
