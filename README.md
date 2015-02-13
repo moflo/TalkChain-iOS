@@ -1,6 +1,7 @@
 TalkChain iOS Library
 ==================================
-Instant Real Time Chat Community 
+Modified: 2015/02/12
+Version: 1.1.5
 
 To Download:
 ----------------------------------
