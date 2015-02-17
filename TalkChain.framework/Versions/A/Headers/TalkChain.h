@@ -40,7 +40,7 @@
     @param delegate - Optional delegate
 */
 
-+ (void)initWithAPIKey:(NSString*)key delegate:(id<TalkChainDelegate>)delegate;
+- (void)initWithAPIKey:(NSString*)key delegate:(id<TalkChainDelegate>)delegate;
 
 
 /*  Start a TalkChain session, create a user account (for first-time users) and listen for notifications. */

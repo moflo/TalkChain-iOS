@@ -17,6 +17,11 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.7 Change Log:
+----------------------------------
+* Fixed UITabBar clobbering
+* Changed `initWithAPIKey:(NSString*)key delegate:(id<TalkChainDelegate>)delegate` to instance method
+
 1.1.6 Change Log:
 ----------------------------------
 * Fixed null pointer bug
