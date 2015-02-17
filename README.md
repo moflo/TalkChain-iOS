@@ -17,6 +17,10 @@ Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
 
+1.1.6 Change Log:
+----------------------------------
+* Fixed null pointer bug
+
 1.1.5 Change Log:
 ----------------------------------
 * Modified init, credentials and token flow
