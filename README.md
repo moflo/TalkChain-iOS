@@ -1,7 +1,7 @@
 TalkChain iOS Library
 ==================================
-Modified: 2015/02/17  
-Library Version: 1.1.7 
+Modified: 2015/02/18  
+Library Version: 1.1.8
 
 To Download:
 ----------------------------------
@@ -12,10 +12,15 @@ Contains:
 * TalkChain.framework (iOS)
 * TalkChain.bundle
 * Third Party Libraries
+* Sample App
 
 Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
+
+1.1.8 Change Log:
+----------------------------------
+* Fixed missing architecture slices
 
 1.1.7 Change Log:
 ----------------------------------
