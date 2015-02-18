@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62AE682C1A952FF2007531E1 /* TalkChain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AE68211A952FF2007531E1 /* TalkChain.bundle */; };
+		62AE682D1A952FF2007531E1 /* TalkChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68221A952FF2007531E1 /* TalkChain.framework */; };
+		62AE682E1A952FF2007531E1 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68241A952FF2007531E1 /* AdColony.framework */; };
+		62AE682F1A952FF2007531E1 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */; };
+		62AE68301A952FF2007531E1 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */; };
+		62AE68311A952FF2007531E1 /* libInMobi-4.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */; };
+		62AE68321A952FF2007531E1 /* libLocalyticsAMP_x64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */; };
+		62AE68331A952FF2007531E1 /* SharethroughSDK+DFP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */; };
+		62AE68341A952FF2007531E1 /* TapIt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AE682A1A952FF2007531E1 /* TapIt.bundle */; };
+		62AE68351A952FF2007531E1 /* TapIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE682B1A952FF2007531E1 /* TapIt.framework */; };
+		62F07E9E1A945AE500C2CD4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F07E9D1A945AE500C2CD4D /* main.m */; };
+		62F07EA11A945AE500C2CD4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F07EA01A945AE500C2CD4D /* AppDelegate.m */; };
+		62F07EA41A945AE500C2CD4D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F07EA31A945AE500C2CD4D /* ViewController.m */; };
+		62F07EA71A945AE500C2CD4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62F07EA51A945AE500C2CD4D /* Main.storyboard */; };
+		62F07EB81A945AE500C2CD4D /* TalkChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F07EB71A945AE500C2CD4D /* TalkChainTests.m */; };
+		62F07EC21A945B7100C2CD4D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F07EC11A945B7100C2CD4D /* libicucore.dylib */; };
+		62F07EC41A945BB800C2CD4D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F07EC31A945BB800C2CD4D /* libz.1.2.5.dylib */; };
+		62F07EC61A945BBE00C2CD4D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62F07EC51A945BBE00C2CD4D /* libsqlite3.dylib */; };
+		62F07ED01A945C3400C2CD4D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07EC91A945C3400C2CD4D /* Default-568h@2x.png */; };
+		62F07ED11A945C3400C2CD4D /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECA1A945C3400C2CD4D /* Default-667h@2x.png */; };
+		62F07ED21A945C3400C2CD4D /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECB1A945C3400C2CD4D /* Default-736h@3x.png */; };
+		62F07ED31A945C3400C2CD4D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECC1A945C3400C2CD4D /* Default@2x.png */; };
+		62F07ED41A945C3400C2CD4D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECD1A945C3400C2CD4D /* Icon.png */; };
+		62F07ED51A945C3400C2CD4D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECE1A945C3400C2CD4D /* Icon@2x.png */; };
+		62F07ED61A945C3400C2CD4D /* Icon120.png in Resources */ = {isa = PBXBuildFile; fileRef = 62F07ECF1A945C3400C2CD4D /* Icon120.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62F07EB21A945AE500C2CD4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62F07E901A945AE500C2CD4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62F07E971A945AE500C2CD4D;
+			remoteInfo = TalkChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62AE68211A952FF2007531E1 /* TalkChain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TalkChain.bundle; path = ../../TalkChain.bundle; sourceTree = "<group>"; };
+		62AE68221A952FF2007531E1 /* TalkChain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TalkChain.framework; path = ../../TalkChain.framework; sourceTree = "<group>"; };
+		62AE68241A952FF2007531E1 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
+		62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libInMobi-4.5.1.a"; sourceTree = "<group>"; };
+		62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLocalyticsAMP_x64.a; sourceTree = "<group>"; };
+		62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "SharethroughSDK+DFP.framework"; sourceTree = "<group>"; };
+		62AE682A1A952FF2007531E1 /* TapIt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapIt.bundle; sourceTree = "<group>"; };
+		62AE682B1A952FF2007531E1 /* TapIt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TapIt.framework; sourceTree = "<group>"; };
+		62F07E981A945AE500C2CD4D /* TalkChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F07E9C1A945AE500C2CD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F07E9D1A945AE500C2CD4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		62F07E9F1A945AE500C2CD4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62F07EA01A945AE500C2CD4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		62F07EA21A945AE500C2CD4D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62F07EA31A945AE500C2CD4D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		62F07EA61A945AE500C2CD4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62F07EB11A945AE500C2CD4D /* TalkChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62F07EB61A945AE500C2CD4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F07EB71A945AE500C2CD4D /* TalkChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkChainTests.m; sourceTree = "<group>"; };
+		62F07EC11A945B7100C2CD4D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		62F07EC31A945BB800C2CD4D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		62F07EC51A945BBE00C2CD4D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		62F07EC91A945C3400C2CD4D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		62F07ECA1A945C3400C2CD4D /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		62F07ECB1A945C3400C2CD4D /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		62F07ECC1A945C3400C2CD4D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		62F07ECD1A945C3400C2CD4D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		62F07ECE1A945C3400C2CD4D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		62F07ECF1A945C3400C2CD4D /* Icon120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon120.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62F07E951A945AE500C2CD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AE68311A952FF2007531E1 /* libInMobi-4.5.1.a in Frameworks */,
+				62AE68351A952FF2007531E1 /* TapIt.framework in Frameworks */,
+				62F07EC61A945BBE00C2CD4D /* libsqlite3.dylib in Frameworks */,
+				62AE68331A952FF2007531E1 /* SharethroughSDK+DFP.framework in Frameworks */,
+				62F07EC41A945BB800C2CD4D /* libz.1.2.5.dylib in Frameworks */,
+				62AE682D1A952FF2007531E1 /* TalkChain.framework in Frameworks */,
+				62AE682F1A952FF2007531E1 /* FBAudienceNetwork.framework in Frameworks */,
+				62AE68301A952FF2007531E1 /* libGoogleAdMobAds.a in Frameworks */,
+				62F07EC21A945B7100C2CD4D /* libicucore.dylib in Frameworks */,
+				62AE68321A952FF2007531E1 /* libLocalyticsAMP_x64.a in Frameworks */,
+				62AE682E1A952FF2007531E1 /* AdColony.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F07EAE1A945AE500C2CD4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62AE68231A952FF2007531E1 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				62AE68241A952FF2007531E1 /* AdColony.framework */,
+				62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */,
+				62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */,
+				62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */,
+				62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */,
+				62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */,
+				62AE682A1A952FF2007531E1 /* TapIt.bundle */,
+				62AE682B1A952FF2007531E1 /* TapIt.framework */,
+			);
+			name = "Third Party";
+			path = "../../Third Party";
+			sourceTree = "<group>";
+		};
+		62F07E8F1A945AE500C2CD4D = {
+			isa = PBXGroup;
+			children = (
+				62F07E9A1A945AE500C2CD4D /* TalkChain */,
+				62F07EB41A945AE500C2CD4D /* TalkChainTests */,
+				62F07E991A945AE500C2CD4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62F07E991A945AE500C2CD4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62F07E981A945AE500C2CD4D /* TalkChain.app */,
+				62F07EB11A945AE500C2CD4D /* TalkChainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62F07E9A1A945AE500C2CD4D /* TalkChain */ = {
+			isa = PBXGroup;
+			children = (
+				62F07E9F1A945AE500C2CD4D /* AppDelegate.h */,
+				62F07EA01A945AE500C2CD4D /* AppDelegate.m */,
+				62F07EA21A945AE500C2CD4D /* ViewController.h */,
+				62F07EA31A945AE500C2CD4D /* ViewController.m */,
+				62F07EA51A945AE500C2CD4D /* Main.storyboard */,
+				62F07EC81A945BEA00C2CD4D /* Assets */,
+				62F07EC71A945BD100C2CD4D /* Frameworks */,
+				62F07E9B1A945AE500C2CD4D /* Supporting Files */,
+			);
+			path = TalkChain;
+			sourceTree = "<group>";
+		};
+		62F07E9B1A945AE500C2CD4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F07E9C1A945AE500C2CD4D /* Info.plist */,
+				62F07E9D1A945AE500C2CD4D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F07EB41A945AE500C2CD4D /* TalkChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				62F07EB71A945AE500C2CD4D /* TalkChainTests.m */,
+				62F07EB51A945AE500C2CD4D /* Supporting Files */,
+			);
+			path = TalkChainTests;
+			sourceTree = "<group>";
+		};
+		62F07EB51A945AE500C2CD4D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				62F07EB61A945AE500C2CD4D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62F07EC71A945BD100C2CD4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62AE68231A952FF2007531E1 /* Third Party */,
+				62F07EC51A945BBE00C2CD4D /* libsqlite3.dylib */,
+				62F07EC31A945BB800C2CD4D /* libz.1.2.5.dylib */,
+				62F07EC11A945B7100C2CD4D /* libicucore.dylib */,
+				62AE68211A952FF2007531E1 /* TalkChain.bundle */,
+				62AE68221A952FF2007531E1 /* TalkChain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62F07EC81A945BEA00C2CD4D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				62F07EC91A945C3400C2CD4D /* Default-568h@2x.png */,
+				62F07ECA1A945C3400C2CD4D /* Default-667h@2x.png */,
+				62F07ECB1A945C3400C2CD4D /* Default-736h@3x.png */,
+				62F07ECC1A945C3400C2CD4D /* Default@2x.png */,
+				62F07ECD1A945C3400C2CD4D /* Icon.png */,
+				62F07ECE1A945C3400C2CD4D /* Icon@2x.png */,
+				62F07ECF1A945C3400C2CD4D /* Icon120.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62F07E971A945AE500C2CD4D /* TalkChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F07EBB1A945AE500C2CD4D /* Build configuration list for PBXNativeTarget "TalkChain" */;
+			buildPhases = (
+				62F07E941A945AE500C2CD4D /* Sources */,
+				62F07E951A945AE500C2CD4D /* Frameworks */,
+				62F07E961A945AE500C2CD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkChain;
+			productName = TalkChain;
+			productReference = 62F07E981A945AE500C2CD4D /* TalkChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62F07EB01A945AE500C2CD4D /* TalkChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F07EBE1A945AE500C2CD4D /* Build configuration list for PBXNativeTarget "TalkChainTests" */;
+			buildPhases = (
+				62F07EAD1A945AE500C2CD4D /* Sources */,
+				62F07EAE1A945AE500C2CD4D /* Frameworks */,
+				62F07EAF1A945AE500C2CD4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F07EB31A945AE500C2CD4D /* PBXTargetDependency */,
+			);
+			name = TalkChainTests;
+			productName = TalkChainTests;
+			productReference = 62F07EB11A945AE500C2CD4D /* TalkChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62F07E901A945AE500C2CD4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "AFTY, LLC.";
+				TargetAttributes = {
+					62F07E971A945AE500C2CD4D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					62F07EB01A945AE500C2CD4D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 62F07E971A945AE500C2CD4D;
+					};
+				};
+			};
+			buildConfigurationList = 62F07E931A945AE500C2CD4D /* Build configuration list for PBXProject "TalkChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62F07E8F1A945AE500C2CD4D;
+			productRefGroup = 62F07E991A945AE500C2CD4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62F07E971A945AE500C2CD4D /* TalkChain */,
+				62F07EB01A945AE500C2CD4D /* TalkChainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62F07E961A945AE500C2CD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62AE68341A952FF2007531E1 /* TapIt.bundle in Resources */,
+				62F07ED41A945C3400C2CD4D /* Icon.png in Resources */,
+				62AE682C1A952FF2007531E1 /* TalkChain.bundle in Resources */,
+				62F07EA71A945AE500C2CD4D /* Main.storyboard in Resources */,
+				62F07ED61A945C3400C2CD4D /* Icon120.png in Resources */,
+				62F07ED51A945C3400C2CD4D /* Icon@2x.png in Resources */,
+				62F07ED11A945C3400C2CD4D /* Default-667h@2x.png in Resources */,
+				62F07ED31A945C3400C2CD4D /* Default@2x.png in Resources */,
+				62F07ED01A945C3400C2CD4D /* Default-568h@2x.png in Resources */,
+				62F07ED21A945C3400C2CD4D /* Default-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F07EAF1A945AE500C2CD4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62F07E941A945AE500C2CD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F07EA41A945AE500C2CD4D /* ViewController.m in Sources */,
+				62F07EA11A945AE500C2CD4D /* AppDelegate.m in Sources */,
+				62F07E9E1A945AE500C2CD4D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62F07EAD1A945AE500C2CD4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62F07EB81A945AE500C2CD4D /* TalkChainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F07EB31A945AE500C2CD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62F07E971A945AE500C2CD4D /* TalkChain */;
+			targetProxy = 62F07EB21A945AE500C2CD4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62F07EA51A945AE500C2CD4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62F07EA61A945AE500C2CD4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62F07EB91A945AE500C2CD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		62F07EBA1A945AE500C2CD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62F07EBC1A945AE500C2CD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Third Party\"",
+				);
+				INFOPLIST_FILE = TalkChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Third Party\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		62F07EBD1A945AE500C2CD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Third Party\"",
+				);
+				INFOPLIST_FILE = TalkChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/..\"",
+					"\"$(SRCROOT)/../Third Party\"",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		62F07EBF1A945AE500C2CD4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkChain.app/TalkChain";
+			};
+			name = Debug;
+		};
+		62F07EC01A945AE500C2CD4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkChain.app/TalkChain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62F07E931A945AE500C2CD4D /* Build configuration list for PBXProject "TalkChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F07EB91A945AE500C2CD4D /* Debug */,
+				62F07EBA1A945AE500C2CD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F07EBB1A945AE500C2CD4D /* Build configuration list for PBXNativeTarget "TalkChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F07EBC1A945AE500C2CD4D /* Debug */,
+				62F07EBD1A945AE500C2CD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F07EBE1A945AE500C2CD4D /* Build configuration list for PBXNativeTarget "TalkChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62F07EBF1A945AE500C2CD4D /* Debug */,
+				62F07EC01A945AE500C2CD4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62F07E901A945AE500C2CD4D /* Project object */;
+}
