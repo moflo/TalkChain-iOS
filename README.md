@@ -1,7 +1,7 @@
 TalkChain iOS Library
 ==================================
-Modified: 2015/02/18  
-Library Version: 1.1.8
+Modified: 2015/02/24  
+Library Version: 1.1.9
 
 To Download:
 ----------------------------------
@@ -17,6 +17,16 @@ Contains:
 Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
+
+1.1.9 Change Log:
+----------------------------------
+* Removed inMobi ad network
+* Swapping SharethroughSDK+DFP for SharethroughSDK
+* Removed adMob network
+* Added reachability tests on init
+* Fixed issue with sign-in view closing talkchain UI
+* Better handling of large image picker, such as panoramas
+* Sundry bug fixes
 
 1.1.8 Change Log:
 ----------------------------------
