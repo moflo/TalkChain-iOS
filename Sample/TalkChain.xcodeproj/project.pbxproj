@@ -7,14 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62A029DD1A9D5316009DED06 /* SharethroughSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A029DC1A9D5316009DED06 /* SharethroughSDK.framework */; };
 		62AE682C1A952FF2007531E1 /* TalkChain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AE68211A952FF2007531E1 /* TalkChain.bundle */; };
 		62AE682D1A952FF2007531E1 /* TalkChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68221A952FF2007531E1 /* TalkChain.framework */; };
 		62AE682E1A952FF2007531E1 /* AdColony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68241A952FF2007531E1 /* AdColony.framework */; };
 		62AE682F1A952FF2007531E1 /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */; };
-		62AE68301A952FF2007531E1 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */; };
-		62AE68311A952FF2007531E1 /* libInMobi-4.5.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */; };
 		62AE68321A952FF2007531E1 /* libLocalyticsAMP_x64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */; };
-		62AE68331A952FF2007531E1 /* SharethroughSDK+DFP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */; };
 		62AE68341A952FF2007531E1 /* TapIt.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AE682A1A952FF2007531E1 /* TapIt.bundle */; };
 		62AE68351A952FF2007531E1 /* TapIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE682B1A952FF2007531E1 /* TapIt.framework */; };
 		62F07E9E1A945AE500C2CD4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62F07E9D1A945AE500C2CD4D /* main.m */; };
@@ -45,14 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62A029DC1A9D5316009DED06 /* SharethroughSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SharethroughSDK.framework; sourceTree = "<group>"; };
 		62AE68211A952FF2007531E1 /* TalkChain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TalkChain.bundle; path = ../../TalkChain.bundle; sourceTree = "<group>"; };
 		62AE68221A952FF2007531E1 /* TalkChain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TalkChain.framework; path = ../../TalkChain.framework; sourceTree = "<group>"; };
 		62AE68241A952FF2007531E1 /* AdColony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdColony.framework; sourceTree = "<group>"; };
 		62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
-		62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
-		62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libInMobi-4.5.1.a"; sourceTree = "<group>"; };
 		62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLocalyticsAMP_x64.a; sourceTree = "<group>"; };
-		62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "SharethroughSDK+DFP.framework"; sourceTree = "<group>"; };
 		62AE682A1A952FF2007531E1 /* TapIt.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TapIt.bundle; sourceTree = "<group>"; };
 		62AE682B1A952FF2007531E1 /* TapIt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TapIt.framework; sourceTree = "<group>"; };
 		62F07E981A945AE500C2CD4D /* TalkChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,14 +79,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62AE68311A952FF2007531E1 /* libInMobi-4.5.1.a in Frameworks */,
 				62AE68351A952FF2007531E1 /* TapIt.framework in Frameworks */,
+				62A029DD1A9D5316009DED06 /* SharethroughSDK.framework in Frameworks */,
 				62F07EC61A945BBE00C2CD4D /* libsqlite3.dylib in Frameworks */,
-				62AE68331A952FF2007531E1 /* SharethroughSDK+DFP.framework in Frameworks */,
 				62F07EC41A945BB800C2CD4D /* libz.1.2.5.dylib in Frameworks */,
 				62AE682D1A952FF2007531E1 /* TalkChain.framework in Frameworks */,
 				62AE682F1A952FF2007531E1 /* FBAudienceNetwork.framework in Frameworks */,
-				62AE68301A952FF2007531E1 /* libGoogleAdMobAds.a in Frameworks */,
 				62F07EC21A945B7100C2CD4D /* libicucore.dylib in Frameworks */,
 				62AE68321A952FF2007531E1 /* libLocalyticsAMP_x64.a in Frameworks */,
 				62AE682E1A952FF2007531E1 /* AdColony.framework in Frameworks */,
@@ -112,10 +106,8 @@
 			children = (
 				62AE68241A952FF2007531E1 /* AdColony.framework */,
 				62AE68251A952FF2007531E1 /* FBAudienceNetwork.framework */,
-				62AE68261A952FF2007531E1 /* libGoogleAdMobAds.a */,
-				62AE68271A952FF2007531E1 /* libInMobi-4.5.1.a */,
 				62AE68281A952FF2007531E1 /* libLocalyticsAMP_x64.a */,
-				62AE68291A952FF2007531E1 /* SharethroughSDK+DFP.framework */,
+				62A029DC1A9D5316009DED06 /* SharethroughSDK.framework */,
 				62AE682A1A952FF2007531E1 /* TapIt.bundle */,
 				62AE682B1A952FF2007531E1 /* TapIt.framework */,
 			);
