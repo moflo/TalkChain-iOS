@@ -1,7 +1,7 @@
 TalkChain iOS Library
 ==================================
-Modified: 2015/02/26  
-Library Version: 1.1.10
+Modified: 2015/03/09  
+Library Version: 1.1.11
 
 To Download:
 ----------------------------------
@@ -17,6 +17,11 @@ Contains:
 Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
+
+1.1.11 Change Log:
+----------------------------------
+* Added presentUIFromRootViewController
+* Fixed a few layout issues
 
 1.1.10 Change Log:
 ----------------------------------

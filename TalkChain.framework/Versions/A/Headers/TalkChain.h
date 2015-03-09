@@ -27,6 +27,7 @@
 @property (nonatomic, strong) id<TalkChainDelegate> delegate;
 @property (nonatomic, strong) NSString *APNSToken;
 @property (nonatomic, strong) TalkChainCredentials *credentials;
+@property (nonatomic, strong) UIViewController *rootViewController;
 
 /*  Singleton */
 
@@ -51,6 +52,18 @@
 /*  Open the TalkChain UI */
 
 - (void)presentUI;
+
+
+/*
+    Open the TalkChain UI from a specific root view controller.
+ 
+    We recommend using to top most root controller, as the UI
+    has a built-in UINavigationController and UITabBarController.
+ 
+    If unsure how to use, call presentUI instead.
+*/
+
+- (void)presentUIFromRootViewController:(UIViewController*)rootViewController;
 
 
 /*
