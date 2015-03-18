@@ -29,6 +29,7 @@ New and returning users should review the [quick start guide](https://github.com
 * Upgrade to TapIt 3.1.3
 * Upgrade to Afty 3.2.0
 * Updated sample project
+* Removed presentUIFromRootViewController
 
 1.1.11 Change Log:
 ----------------------------------
