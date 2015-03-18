@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		621F589C1AB9E4B1006D60E7 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621F589B1AB9E4B1006D60E7 /* WebKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		62A029DD1A9D5316009DED06 /* SharethroughSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A029DC1A9D5316009DED06 /* SharethroughSDK.framework */; };
 		62AE682C1A952FF2007531E1 /* TalkChain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AE68211A952FF2007531E1 /* TalkChain.bundle */; };
 		62AE682D1A952FF2007531E1 /* TalkChain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AE68221A952FF2007531E1 /* TalkChain.framework */; };
@@ -43,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		621F589B1AB9E4B1006D60E7 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		62A029DC1A9D5316009DED06 /* SharethroughSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SharethroughSDK.framework; sourceTree = "<group>"; };
 		62AE68211A952FF2007531E1 /* TalkChain.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TalkChain.bundle; path = ../../TalkChain.bundle; sourceTree = "<group>"; };
 		62AE68221A952FF2007531E1 /* TalkChain.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TalkChain.framework; path = ../../TalkChain.framework; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				621F589C1AB9E4B1006D60E7 /* WebKit.framework in Frameworks */,
 				62AE68351A952FF2007531E1 /* TapIt.framework in Frameworks */,
 				62A029DD1A9D5316009DED06 /* SharethroughSDK.framework in Frameworks */,
 				62F07EC61A945BBE00C2CD4D /* libsqlite3.dylib in Frameworks */,
@@ -177,12 +180,13 @@
 		62F07EC71A945BD100C2CD4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				62AE68231A952FF2007531E1 /* Third Party */,
+				62F07EC11A945B7100C2CD4D /* libicucore.dylib */,
 				62F07EC51A945BBE00C2CD4D /* libsqlite3.dylib */,
 				62F07EC31A945BB800C2CD4D /* libz.1.2.5.dylib */,
-				62F07EC11A945B7100C2CD4D /* libicucore.dylib */,
 				62AE68211A952FF2007531E1 /* TalkChain.bundle */,
 				62AE68221A952FF2007531E1 /* TalkChain.framework */,
+				621F589B1AB9E4B1006D60E7 /* WebKit.framework */,
+				62AE68231A952FF2007531E1 /* Third Party */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

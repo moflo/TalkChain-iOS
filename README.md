@@ -1,7 +1,9 @@
 TalkChain iOS Library
 ==================================
-Modified: 2015/03/09  
-Library Version: 1.1.11
+Modified: 2015/03/18  
+Library Version: 1.1.12
+
+\#wcfb
 
 To Download:
 ----------------------------------
@@ -17,6 +19,16 @@ Contains:
 Getting Started with TalkChain:
 ----------------------------------
 New and returning users should review the [quick start guide](https://github.com/afty/TalkChain-iOS/wiki), which contains detailed integration instructions.
+
+1.1.12 Change Log:
+----------------------------------
+* Added ability to create/open single discussions - see [Chat About This](https://github.com/afty/TalkChain-iOS/wiki/Chat-About-This)
+* Removed library option for setting Guest Mode - see [Credentials](https://github.com/afty/TalkChain-iOS/wiki/Credentials)
+* Upgrade to AdColony 2.5.0
+* Upgrade to FAN 3.23.1
+* Upgrade to TapIt 3.1.3
+* Upgrade to Afty 3.2.0
+* Updated sample project
 
 1.1.11 Change Log:
 ----------------------------------

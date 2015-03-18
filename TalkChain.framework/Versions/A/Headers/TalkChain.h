@@ -27,7 +27,6 @@
 @property (nonatomic, strong) id<TalkChainDelegate> delegate;
 @property (nonatomic, strong) NSString *APNSToken;
 @property (nonatomic, strong) TalkChainCredentials *credentials;
-@property (nonatomic, strong) UIViewController *rootViewController;
 
 /*  Singleton */
 
@@ -52,18 +51,6 @@
 /*  Open the TalkChain UI */
 
 - (void)presentUI;
-
-
-/*
-    Open the TalkChain UI from a specific root view controller.
- 
-    We recommend using to top most root controller, as the UI
-    has a built-in UINavigationController and UITabBarController.
- 
-    If unsure how to use, call presentUI instead.
-*/
-
-- (void)presentUIFromRootViewController:(UIViewController*)rootViewController;
 
 
 /*
@@ -93,8 +80,29 @@
                  header:(UIColor*)header;
 
 
-/*  Allow Guest Accounts - Default NO */
+/* 
+    Get Discussion Details
+ 
+    @param uniqueId - Your unique identifier (the same one you used for openDiscussion.)
+*/
 
-+ (void)allowGuestAccounts:(BOOL)allow;
+- (void)getDiscussion:(NSString*)uniqueId success:(void (^)(NSDictionary *discussion))success failure:(void (^)(NSString *error))failure;
+
+
+/*
+    Open a Discussion
+ 
+    @param uniqueId - The local unique identifier, such as the id of an article, game or song
+    @param name - The discussion name
+    @param contentSummary - Optional content summary
+    @param contentURL - Optional external content link
+    @param imageURL - Optional image resource, used as the discussion background
+
+    If the discussion exists, we'll open it. Otherwise we'll create a new one.
+ 
+    Providing an imageURL is not required but considered polite.
+*/
+
+- (void)openDiscussion:(NSString *)uniqueId name:(NSString*)name contentSummary:(NSString*)contentSummary contentURL:(NSString*)contentURL imageURL:(NSString*)imageURL;
 
 @end

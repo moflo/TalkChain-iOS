@@ -25,9 +25,28 @@
     [super didReceiveMemoryWarning];
 }
 
-- (IBAction)launchTalkChain:(id)sender {
+- (IBAction)presentUI:(id)sender {
     
     [[TalkChain sharedManager] presentUI];
+}
+
+- (IBAction)presentDiscussion:(id)sender {
+    
+#warning TO CREATE A NEW DISCUSSION, CHANGE THE UNIQUE_ID
+    
+    [[TalkChain sharedManager] openDiscussion:@"42074" name:@"TalkChain Discussion" contentSummary:nil contentURL:nil imageURL:nil];
+}
+
+- (IBAction)getDiscussion:(id)sender
+{
+    [[TalkChain sharedManager] getDiscussion:@"42074" success:^(NSDictionary *discussion) {
+        
+        NSLog(@"%@",discussion);
+        
+    } failure:^(NSString *error) {
+        
+        NSLog(@"%@",error);
+    }];
 }
 
 @end

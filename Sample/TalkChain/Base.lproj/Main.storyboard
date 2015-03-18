@@ -17,19 +17,41 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hs6-29-sdj">
-                                <rect key="frame" x="267" y="285" width="67" height="30"/>
-                                <state key="normal" title="TalkChain">
+                                <rect key="frame" x="229" y="135" width="143" height="30"/>
+                                <state key="normal" title="Present TalkChain UI">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="launchTalkChain:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9DM-vU-B1n"/>
+                                    <action selector="presentUI:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="JHF-5G-h2h"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYj-q6-Jdd">
+                                <rect key="frame" x="219" y="235" width="163" height="30"/>
+                                <state key="normal" title="Open Single Discussion">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="presentDiscussion:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="USC-bf-eK0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="58M-Hf-1kI">
+                                <rect key="frame" x="225" y="335" width="151" height="30"/>
+                                <state key="normal" title="Get Single Discussion">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getDiscussion:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Pp8-9R-Ep0"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerY" secondItem="hs6-29-sdj" secondAttribute="centerY" id="1W9-f7-2jn"/>
+                            <constraint firstAttribute="centerY" secondItem="hs6-29-sdj" secondAttribute="centerY" constant="150" id="1W9-f7-2jn"/>
+                            <constraint firstAttribute="centerY" secondItem="yYj-q6-Jdd" secondAttribute="centerY" constant="50" id="D9T-cm-pYX"/>
+                            <constraint firstAttribute="centerX" secondItem="58M-Hf-1kI" secondAttribute="centerX" id="Mr6-kH-bdi"/>
                             <constraint firstAttribute="centerX" secondItem="hs6-29-sdj" secondAttribute="centerX" id="bix-jV-Iqk"/>
+                            <constraint firstAttribute="centerY" secondItem="58M-Hf-1kI" secondAttribute="centerY" constant="-50" id="iWG-w4-iEE"/>
+                            <constraint firstAttribute="centerX" secondItem="yYj-q6-Jdd" secondAttribute="centerX" id="mNu-i0-KKg"/>
                         </constraints>
                     </view>
                 </viewController>
